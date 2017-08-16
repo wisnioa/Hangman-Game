@@ -1,13 +1,11 @@
 body { 
-    background-image: url('hangmanbeachpic.png');
+    background-image: url('../images/hangmanbeachpic.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
    
 }
   	
-
-
 .header {
 	margin-right: 80px;
 	
