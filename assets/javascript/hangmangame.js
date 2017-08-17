@@ -9,7 +9,7 @@ function() {
   
  var randomWord = answers[Math.floor(Math.random() * answers.length)];
  	
- 	document.getElementById("userGuess").innerHTML;
+ 	document.getElementById("").innerHTML;
 		}
 
 
