@@ -5,7 +5,7 @@ var winsCount;
 //find a way to select a random word from answers
 
 
-function() {
+function choose() {
   
  var randomWord = answers[Math.floor(Math.random() * answers.length)];
  	
@@ -24,6 +24,6 @@ var randomWordDash = [];
     randomWordDash.push("_");
 
 }
-var html = "<h1>Word is this many characters: " + randomWordDash+"</h1>";
+var html = "<h3> Current Word \n" + randomWordDash+"</h3>";
 console.log(html);
 document.getElementById("gameWord").innerHTML = html;
